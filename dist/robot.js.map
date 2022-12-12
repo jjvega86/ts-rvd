@@ -1,0 +1,1 @@
+{"version":3,"file":"robot.js","sourceRoot":"","sources":["../src/robot.ts"],"names":[],"mappings":";;AAEA,MAAqB,KAAK;IAKxB,YAAY,IAAY,EAAE,WAAmB,EAAE,MAAc;QAC3D,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;QACjB,IAAI,CAAC,WAAW,GAAG,WAAW,CAAC;QAC/B,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;IACvB,CAAC;CACF;AAVD,wBAUC"}
