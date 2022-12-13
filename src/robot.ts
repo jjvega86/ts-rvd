@@ -22,4 +22,8 @@ export default class Robot implements Combatant {
 
     return new Weapon(name, attackPower);
   }
+
+  attack(dinosaur: Combatant) {
+    dinosaur.health -= this.weapon.attackPower;
+  }
 }
