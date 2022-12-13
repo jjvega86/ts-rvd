@@ -1,5 +1,7 @@
-import Robot from "./robot";
+//! NOTE: npm start to run ts-node (will run compilation step AND execute program)
+import prompt from "prompt-sync";
+const getInput = prompt({ sigint: true });
 
-let myRobot = new Robot("Ryu", 50, 100);
+let input = getInput("What is your name?");
 
-console.log(myRobot.attackPower);
+console.log(input);
