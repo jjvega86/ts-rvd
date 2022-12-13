@@ -3,3 +3,7 @@ export interface Combatant {
   readonly attackPower?: number;
   health: number;
 }
+
+export interface Container {
+  combatants: Array<Combatant>;
+}

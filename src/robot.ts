@@ -15,12 +15,7 @@ export default class Robot implements Combatant {
   }
 
   initializeWeapon(): Weapon {
-    let name: string = getInput("What is the weapon name?\n");
-    let attackPower: number = parseInt(
-      getInput("What is the attack power of the weapon? \n")
-    );
-
-    return new Weapon(name, attackPower);
+    return new Weapon("Sword", 25);
   }
 
   attack(dinosaur: Combatant) {
