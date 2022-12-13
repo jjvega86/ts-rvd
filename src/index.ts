@@ -3,6 +3,6 @@
 
 import Robot from "./robot";
 
-let hal = new Robot("HAL-9000", 100);
+let hal = new Robot("HAL-9000");
 
 console.log(hal.weapon);

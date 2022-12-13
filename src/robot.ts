@@ -4,14 +4,14 @@ import Weapon from "./weapon";
 import { getInput } from "./lib/input";
 
 export default class Robot implements Combatant {
-  name: string;
+  readonly name: string;
   health: number;
   weapon: Weapon;
 
-  constructor(name: string, health: number) {
+  constructor(name: string) {
     this.name = name;
     this.weapon = this.initializeWeapon();
-    this.health = health;
+    this.health = 100;
   }
 
   initializeWeapon(): Weapon {

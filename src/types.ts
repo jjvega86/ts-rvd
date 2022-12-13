@@ -1,5 +1,5 @@
 export interface Combatant {
-  name: string;
+  readonly name: string;
   readonly attackPower?: number;
   health: number;
 }
