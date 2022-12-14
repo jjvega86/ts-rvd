@@ -1,8 +1,6 @@
 import { Combatant } from "./types";
 import Weapon from "./weapon";
 
-import { getInput } from "./lib/input";
-
 export default class Robot implements Combatant {
   readonly name: string;
   health: number;
@@ -20,5 +18,6 @@ export default class Robot implements Combatant {
 
   attack(dinosaur: Combatant) {
     dinosaur.health -= this.weapon.attackPower;
+    console.log(`${dinosaur.name} has ${dinosaur.health} left.`);
   }
 }

@@ -11,7 +11,8 @@ export default class Dinosaur implements Combatant {
     this.health = 100;
   }
 
-  attack(dinosaur: Combatant) {
-    dinosaur.health -= this.attackPower;
+  attack(robot: Combatant) {
+    robot.health -= this.attackPower;
+    console.log(`${robot.name} has ${robot.health} left.`);
   }
 }
